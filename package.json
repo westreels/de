@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "webpack --config config/webpack.prod.js",
+    "build": "webpack --config config/webpack.prod.js --output public",
     "start": "webpack serve --open --config config/webpack.dev.js"
   },
   "devDependencies": {
